@@ -52,9 +52,16 @@ function reverseString(str){
 ///////////////////////////////////
 // .7- Arrow function same as 6 just using the arrow
 
-let revString = '';
-str.split('').forEach(char => revString = char + revString);
-return revString;
+// let revString = '';
+// str.split('').forEach(char => revString = char + revString);
+// return revString;
+
+
+//////////////////////////////////////
+// .8- Using reduce high order method
+
+return str.split('').reduce((revString, char) => char + 
+revString, '')
 
 }
 
