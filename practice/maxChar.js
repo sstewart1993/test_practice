@@ -1,8 +1,8 @@
-// Return a string with every word capitalized 
-// e.g i love java = I Love Java
+// return the character that appears the most
+// e.g (javascript) = 'a'
 
-function capitalizeLetters(str){
-    
+function maxCharacter(str){
+
 }
 
-console.log(capitalizeLetters("i love javascript"));
+console.log(maxCharacter("javascript"));
