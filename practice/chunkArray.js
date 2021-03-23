@@ -39,7 +39,7 @@ function chunkyArray(arr, len){
 // }
 }
 
-// console.log(chunkyArray([1,2,3,4,5,6,7], 3));
+console.log(chunkyArray([1,2,3,4,5,6,7], 3));
 
 
 

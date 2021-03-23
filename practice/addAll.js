@@ -3,6 +3,7 @@
 
 // function addAll(){
     // .1- using ES5 for loop
+
     // let args = Array.prototype.slice.call(arguments)
     // let total = 0;
     // for(i =0; i < args.length; i++){
@@ -15,17 +16,17 @@
 function addAll(...numbers){
     ////////////////////////////////////////////////
     // .2- using ES6 ...rest & forEach
-    // let total = 0
-    // numbers.forEach(function(num){
-    //     total += num;
-    // });
+    let total = 0
+    numbers.forEach(function(num){
+        total += num;
+    });
 
-    // return total
+    return total
 
     //////////////////////////////////////////
-    // using ES6 reduce
+    // .3- using ES6 reduce
 
-    return numbers.reduce((acc, cur) => acc + cur)
+    // return numbers.reduce((acc, cur) => acc + cur)
 
 }
 

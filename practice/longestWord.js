@@ -11,10 +11,13 @@ function longestWord(sen){
         return b.length -a.length
     })
 
+    // const sorted = wordArr.sort((a,b) => b.length -a.length)
+
     // If multiple words then put in an array
     const longestWordArr = sorted.filter(function(word) {
         return word.length === sorted[0].length;
     })
+    // const longestWordArr = sorted.filter(word => word.length === sorted[0].length)
 
     // check if more than one array value
     if(longestWordArr.length === 1){

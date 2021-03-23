@@ -60,8 +60,7 @@ function reverseString(str){
 //////////////////////////////////////
 // .8- Using reduce high order method
 
-return str.split('').reduce((revString, char) => char + 
-revString, '')
+return str.split('').reduce((revString, char) => char + revString, '')
 
 }
 
